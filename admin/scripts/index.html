@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Texas Piney Woods Realty</title>
+
+	<!-- CHECK IF MOBILE BROWSER -->
+	<script type="text/javascript">
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			window.location.replace('mobile.php');
+		}
+	</script>
+
+	<!--#include virtual="include.html" -->
+	<script type="text/javascript" src="indexJS.js"></script>
+</head>
+
+<body onload="loadContent()">
+	<div class="homeSplash" id="splash">
+		<div class="splashMainText">
+			<div class="splashMainTextHeader">TEXAS PINEY WOODS REALTY</div>
+			A Texas Tradition<br/><br/><br/><br/>
+			<a href="#listings"><img src="images/arrow4.png" width="60"></a>
+		</div>
+	</div>
+
+	<!-- Initialize heigh of the main image -->
+	<script type="text/javascript">
+		var h = $(window).height() - 60;
+		document.getElementById("splash").style.height= h + "px";
+	</script>
+
+	<!-- Menu Bar -->
+	<div id="mynavigation" data-0="position:static;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
+	<!--#include virtual="mainMenu.html" -->
+	</div>
+
+	<!--placeholder div to prevent jumpy content when nav gets pinned-->
+	<div style="height:60px;" data-0="display:none;" data-top-top="display:block;top:0" data-anchor-target="#mynavigation" data-edge-strategy="set">&nbsp;</div>
+
+
+	<!-- ###################################################### -->
+	<!-- PAGE FOLD -->
+	<!-- ###################################################### -->
+
+	<!-- SPACER div to work out formatting kinks -->
+	<div style="height:10px;"></div>
+
+	<div class="section" id="listings">
+		<div class="containerWide">
+
+			<!-- CONTENT -->
+			<div id=featuredListingsContent></div>
+
+			<p><br/><br/>SEE ALL LISTINGS</p>
+
+			<!-- NAVIGATION ARROW -->
+			<div class="spacerSmall"></div>
+			<a href="#aboutUs"><img src="images/arrow4_b.png" width="60"></a>
+		</div>
+	</div>
+	<hr/>
+
+
+	<!-- ABOUT US -->
+	<div class="pictureSection" id="PS-about"></div>
+	<hr/>
+	<div class="section" id="aboutUs">
+		<div class="containerNarrow">
+			<!-- NAVIGATION ARROW -->
+			<a href="#listings"><img src="images/arrow4_up_b.png" width="60"></a>
+			<div class="spacerSmall"></div>
+
+			<!-- CONTENT -->
+			<div id="aboutUsContent"></div>
+			
+			<!-- NAVIGATION ARROW -->
+			<div class="spacerSmall"></div>
+			<a href="#community"><img src="images/arrow4_b.png" width="60"></a>
+		</div>
+	</div>
+	<hr/>
+
+
+	<!-- ABOUT THE COMMUNITY -->
+	<div class="pictureSection" id="PS-community"></div>	
+	<hr/>
+
+
+	<div class="section" id="community">
+		<div class="containerNarrow">
+			<!-- NAVIGATION ARROW -->
+			<a href="#aboutUs"><img src="images/arrow4_up_b.png" width="60" class="arrowUp"></a>
+			<div class="spacerSmall"></div>
+
+			<!-- CONTENT -->	
+			<div id="communityContent"></div>
+			
+			<!-- NAVIGATION ARROWS -->
+			<div class="spacerSmall"></div>
+			<a href="#properties"><img src="images/arrow4_b.png" width="60" class="arrowDown"></a>
+		</div>
+	</div>
+
+		
+	<hr/>
+
+
+	<!-- OTHER PROPERTIES -->
+	<div class="pictureSection" id="PS-properties"></div>
+	<hr/>
+	<div class="section" id="properties">
+		<div class="container">
+			<!-- NAVIGATION ARROW -->
+			<a href="#community"><img src="images/arrow4_up_b.png" width="60" class="arrowUp"></a>
+			<div class="spacerSmall"></div>
+			
+			<!-- CONTENT -->	
+			<div id=otherPropertiesContent></div> 
+			<p><br/>SEE ALL PROPERTIES</p>
+
+			<!-- NAVIGATION ARROWS -->
+			<div class="spacerSmall"></div>
+			<a href="#runway"><img src="images/arrow4_b.png" width="60" class="arrowDown"></a>
+		</div>
+	</div>
+	<hr/>
+
+
+	<!-- ABOUT THE RUNWAY -->
+	<div class="pictureSection" id="PS-runway"></div>
+	<hr/>
+	<div class="section" id="runway">
+		<div class="containerNarrow">
+			<!-- NAVIGATION ARROW -->
+			<a href="#properties"><img src="images/arrow4_up_b.png" width="60" class="arrowUp"></a>
+			<div class="spacerSmall"></div>
+
+			<!-- CONTENT -->	
+			<div id="runwayContent"></div>
+			
+			<!-- NAVIGATION ARROW -->
+			<div class="spacerSmall"></div>
+			<a href="#PS-map"><img src="images/arrow4_b.png" width="60"></a>
+		</div>
+	</div>
+	<hr/>
+
+
+	<!-- GOOGLE MAPS -->
+	<!-- <iframe class = "gMap" src="https://www.google.com/maps/d/embed?mid=znIoJ_TsCerM.kYzY2tUr3mJQ"></iframe> -->
+	<div class="pictureSection" id="PS-map"></div>
+
+
+	<!--#include virtual="footer.html" -->
+</body>
+</html>
+
+
+<!-- Skrollr --> 
+<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		forceHeight: false,
+		smoothScrolling: false,
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	function loadContent() {
+		makeFeaturedListings();
+	}
+	function makeFeaturedListings() {
+		if (window.XMLHttpRequest) {
+			xmlhttp = new XMLHttpRequest();
+		}
+		else {
+			xmlhttp = new ActiveObject('Microsoft.XMLHTTP');
+		}
+		xmlhttp.open('GET','featuredListings.php',false);
+		xmlhttp.send(null);
+		if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+			document.getElementById('featuredListingsContent').innerHTML = xmlhttp.responseText;
+		}
+	}
+	function makeAbout() {
+		if (window.XMLHttpRequest) {
+			xmlhttp = new XMLHttpRequest();
+		}
+		else {
+			xmlhttp = new ActiveObject('Microsoft.XMLHTTP');
+		}
+		xmlhttp.open('GET','about.php',false);
+		xmlhttp.send(null);
+		if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+			document.getElementById('aboutUsContent').innerHTML = xmlhttp.responseText;
+		}
+	}
+	function makeCommunity() {
+		if (window.XMLHttpRequest) {
+			xmlhttp = new XMLHttpRequest();
+		}
+		else {
+			xmlhttp = new ActiveObject('Microsoft.XMLHTTP');
+		}
+		xmlhttp.open('GET','community.php',false);
+		xmlhttp.send(null);
+		if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+			document.getElementById('communityContent').innerHTML = xmlhttp.responseText;
+		}
+	}
+	function makeOtherProperties() {
+		if (window.XMLHttpRequest) {
+			xmlhttp = new XMLHttpRequest();
+		}
+		else {
+			xmlhttp = new ActiveObject('Microsoft.XMLHTTP');
+		}
+		xmlhttp.open('GET','otherProperties.php',false);
+		xmlhttp.send(null);
+		if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+			document.getElementById('otherPropertiesContent').innerHTML = xmlhttp.responseText;
+		}
+	}
+	function makeRunway() {
+		if (window.XMLHttpRequest) {
+			xmlhttp = new XMLHttpRequest();
+		}
+		else {
+			xmlhttp = new ActiveObject('Microsoft.XMLHTTP');
+		}
+		xmlhttp.open('GET','runway.php',false);
+		xmlhttp.send(null);
+		if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+			document.getElementById('runwayContent').innerHTML = xmlhttp.responseText;
+		}
+	}
+</script>

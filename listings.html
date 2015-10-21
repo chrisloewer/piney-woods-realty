@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listings</title>
+	<!--#include virtual='include.html' -->
+
+	<!-- Style Overide -->
+	<style type='text/css'>
+	[class*='container']{
+			display: block;
+		}
+	</style>
+</head>
+<body onload=showListing('1')>
+<div id='bodyContainer'>
+	
+<!--#include virtual='fixedMenu.html' -->
+
+
+<div id='bodyContent'>
+	<!--#include virtual="googleAnalytics.html" -->
+
+	<div class='spacerSmall'></div>
+	<h1 class='centerText'>LISTINGS</h1>
+	<div class='spacerSmall'></div>
+
+	<div class='containerWide'>
+
+		
+		<div id='listingInfo'></div>
+
+	</div>
+
+</div> <!-- End #bodyContent -->
+
+<div id='footerContainer'>
+	<!--#include virtual='footer.html' -->
+</div>
+
+</body>
+</html>
+
+<!-- JAVASCRIPT -->
+<script type='text/javascript'>
+	function selectPic (bigPic, smallPic) {
+		
+		var source = smallPic.style.backgroundImage;
+		document.getElementById(bigPic).style.backgroundImage = source;
+	}
+</script>
+
+<script>
+	function showListing(str) {
+		if (str=='') {
+			document.getElementById('listingInfo').innerHTML='';
+			return;
+		}
+		else {
+			if (window.XMLHttpRequest) {
+				xmlhttp = new XMLHttpRequest();
+			}
+			else {
+				xmlhttp = new ActiveObject('Microsoft.XMLHTTP');
+			}
+			xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+				document.getElementById('listingInfo').innerHTML = xmlhttp.responseText;
+			}
+		}
+		xmlhttp.open('GET','getListing.php?q='+str,true);
+		xmlhttp.send();
+		}
+	}
+</script>

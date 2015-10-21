@@ -1,0 +1,133 @@
+[17-Nov-2014 16:59:59 America/Denver] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home1/texaspin/public_html/admin/scripts/connecttodb.php on line 7
+[17-Nov-2014 17:00:39 America/Denver] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home1/texaspin/public_html/admin/scripts/connecttodb.php on line 7
+[17-Nov-2014 17:01:15 America/Denver] PHP Warning:  include(): Failed opening 'admin/connecttodb.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:01:15 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:01:15 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:01:53 America/Denver] PHP Warning:  include(): Failed opening 'admin/connecttodb.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:01:53 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:01:53 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:02:27 America/Denver] PHP Warning:  include(): Failed opening 'admin/connecttodb.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:02:27 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:02:27 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:03:06 America/Denver] PHP Warning:  include(): Failed opening 'admin/db.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:03:06 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:03:06 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:03:28 America/Denver] PHP Warning:  include(): Failed opening 'admin/scripts/connecttodb.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:03:28 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:03:28 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:03:55 America/Denver] PHP Warning:  include(): Failed opening 'admin/scripts/connecttodb.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:03:55 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:03:55 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:04:06 America/Denver] PHP Warning:  include(): Failed opening 'admin/scripts/db.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:04:06 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:04:06 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:08:21 America/Denver] PHP Warning:  include(): Failed opening 'admin/scripts/db.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:08:21 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:08:21 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:09:10 America/Denver] PHP Warning:  include(): Failed opening 'scripts/db.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:09:10 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:09:10 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:09:17 America/Denver] PHP Warning:  include(): Failed opening 'scripts/db.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:09:17 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:09:17 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:10:19 America/Denver] PHP Warning:  include(): Failed opening '../admin/scripts/db.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 3
+[17-Nov-2014 17:10:19 America/Denver] PHP Notice:  Undefined variable: db_connection in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[17-Nov-2014 17:10:19 America/Denver] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 13
+[18-Nov-2014 15:00:06 America/Denver] PHP Warning:  include(): Failed opening 'connecttodb.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 2
+[18-Nov-2014 15:00:06 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 21
+[18-Nov-2014 15:00:06 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 21
+[19-Nov-2014 05:05:53 America/Denver] PHP Notice:  Undefined index: runwayAcess in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 11
+[19-Nov-2014 05:06:11 America/Denver] PHP Notice:  Undefined index: runwayAcess in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 11
+[19-Nov-2014 05:07:04 America/Denver] PHP Notice:  Undefined index: runwayAcess in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 11
+[19-Nov-2014 05:07:17 America/Denver] PHP Notice:  Undefined index: runwayAcess in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 11
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: featured1 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 5
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: featured2 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 6
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: aboutUs in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 7
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: community in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 8
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: other1 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 9
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: other2 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 10
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: runwayAccess in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 11
+[19-Jan-2015 02:02:37 America/Denver] PHP Notice:  Undefined index: bio in /home1/texaspin/public_html/admin/scripts/editAboutPage.php on line 5
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: street1 in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 5
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: street2 in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 6
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: city in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 7
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: zipcode in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 8
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: state in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 9
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: email in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 10
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: phone in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 11
+[19-Jan-2015 02:02:44 America/Denver] PHP Notice:  Undefined index: officeHours in /home1/texaspin/public_html/admin/scripts/editContactPage.php on line 12
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: title in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 5
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: class in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 6
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: keyFeatures in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 7
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: description in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 8
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: mls in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 9
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: acreage in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 10
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: houseFootage in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 11
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: bedrooms in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 12
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: bathrooms in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 13
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: price in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 14
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: street1 in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 15
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: street2 in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 16
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: city in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 17
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: state in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 18
+[16-Feb-2015 14:01:26 America/Denver] PHP Notice:  Undefined index: zipcode in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 19
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: title in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 5
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: class in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 6
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: keyFeatures in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 7
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: description in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 8
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: mls in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 9
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: acreage in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 10
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: houseFootage in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 11
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: bedrooms in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 12
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: bathrooms in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 13
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: price in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 14
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: street1 in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 15
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: street2 in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 16
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: city in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 17
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: state in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 18
+[16-Feb-2015 14:27:24 America/Denver] PHP Notice:  Undefined index: zipcode in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 19
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: title in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 8
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: class in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 8
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: keyFeatures in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 8
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: description in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 8
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: mls in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 8
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: acreage in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 8
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: houseFootage in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 9
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: bedrooms in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 9
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: bathrooms in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 9
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: price in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 9
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: street1 in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 9
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: street2 in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 9
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: city in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 10
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: state in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 10
+[16-Feb-2015 20:21:53 America/Denver] PHP Notice:  Undefined index: zipcode in /home1/texaspin/public_html/admin/scripts/addlisting.php on line 10
+[10-Apr-2015 17:33:52 America/Denver] PHP Notice:  Undefined index: featured1 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 5
+[10-Apr-2015 17:33:52 America/Denver] PHP Notice:  Undefined index: featured2 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 6
+[10-Apr-2015 17:33:52 America/Denver] PHP Notice:  Undefined index: aboutUs in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 7
+[10-Apr-2015 17:33:52 America/Denver] PHP Notice:  Undefined index: community in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 8
+[10-Apr-2015 17:33:52 America/Denver] PHP Notice:  Undefined index: other1 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 9
+[10-Apr-2015 17:33:52 America/Denver] PHP Notice:  Undefined index: other2 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 10
+[10-Apr-2015 17:33:52 America/Denver] PHP Notice:  Undefined index: runwayAccess in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 11
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: title in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 5
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: class in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 6
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: keyFeatures in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 7
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: description in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 8
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: mls in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 9
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: acreage in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 10
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: houseFootage in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 11
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: bedrooms in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 12
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: bathrooms in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 13
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: price in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 14
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: street1 in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 15
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: street2 in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 16
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: city in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 17
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: state in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 18
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: zipcode in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 19
+[26-Apr-2015 15:47:29 America/Denver] PHP Notice:  Undefined index: id in /home1/texaspin/public_html/admin/scripts/editlisting.php on line 20
+[08-Oct-2015 13:36:31 America/Denver] PHP Notice:  Undefined index: featured1 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 5
+[08-Oct-2015 13:36:31 America/Denver] PHP Notice:  Undefined index: featured2 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 6
+[08-Oct-2015 13:36:31 America/Denver] PHP Notice:  Undefined index: aboutUs in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 7
+[08-Oct-2015 13:36:31 America/Denver] PHP Notice:  Undefined index: community in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 8
+[08-Oct-2015 13:36:31 America/Denver] PHP Notice:  Undefined index: other1 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 9
+[08-Oct-2015 13:36:31 America/Denver] PHP Notice:  Undefined index: other2 in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 10
+[08-Oct-2015 13:36:31 America/Denver] PHP Notice:  Undefined index: runwayAccess in /home1/texaspin/public_html/admin/scripts/editHomePage.php on line 11

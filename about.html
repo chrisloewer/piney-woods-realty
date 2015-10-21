@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<!--#include virtual="include.html" -->
+
+	<!-- Style Overide -->
+	<style type="text/css">
+	[class*='container']{
+			display: block;
+		}
+	</style>
+</head>
+<body onload='makeBio()'>
+<div id="bodyContainer">
+	
+<!--#include virtual="fixedMenu.html" -->
+
+
+<div id="bodyContent">
+	<!--#include virtual="googleAnalytics.html" -->
+
+	<div class="spacerSmall"></div>
+	<h1 class="centerText">ABOUT US</h1>
+	<div class="spacerSmall"></div>
+
+	<div class="containerWide">
+		<div class="grid">
+			<div class="col-1-2">
+					<div class='aboutImgPH' style='background-image:url(images/aboutUs/0.jpg)'></div>
+			</div>
+			<div class="col-1-2-r">
+				<div class="centerText">
+					<div id="bioText"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div> <!-- End #bodyContent -->
+
+<div id="footerContainer">
+	<!--#include virtual="footer.html" -->
+</div>
+
+
+</div>
+</body>
+</html>
+
+<script>
+	function makeBio() {
+			if (window.XMLHttpRequest) {
+				xmlhttp = new XMLHttpRequest();
+			}
+			else {
+				xmlhttp = new ActiveObject('Microsoft.XMLHTTP');
+			}
+			xmlhttp.open('GET','bio.php',false);
+			xmlhttp.send(null);
+			if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+				document.getElementById('bioText').innerHTML = xmlhttp.responseText;
+			}
+	}
+</script>

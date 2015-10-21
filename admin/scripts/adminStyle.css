@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Vollkorn', serif;
+}
+hr{
+	height: 2px;
+	background-color: #000000;
+	border: none;
+}
+h1{
+	text-align: center;
+	margin: 10px 0;
+}
+html, body{
+	min-width: 800px;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	text-decoration: underline;
+}
+select, input, textarea{
+	display: block;
+	width: 95%;
+	/*margin: 0 auto;*/
+}
+label{
+	display: block;
+}
+legend{
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 25px;
+}
+.homeSplash{
+	background-color: #666666;
+	/*background: url("images/homeSplash/fall_road.jpg") no-repeat center center;*/
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+}
+
+.homeSplash:before{
+	content: '';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+}
+
+.splashMainText{
+	display: inline-block;
+	vertical-align: middle;
+	color: #FFFFFF;
+}
+
+.splashMainText h1{
+	font-size: 42px;
+}
+
+/*PICTURE SECTION DIVIDERS*/
+#PS-about{
+	/*images/couple.jpg*/
+	background: url("images/homeSplash/dock2.jpg") no-repeat fixed center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#PS-community{
+	background: url("images/homeSplash/star.jpg") no-repeat fixed center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#PS-properties{
+	background: url("images/homeSplash/house.jpg") no-repeat fixed center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#PS-runway{
+	background: url("images/homeSplash/runway.jpg") no-repeat fixed center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#PS-map{
+	background: url("images/map.png") no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+/*MENU*/
+.menuBar{
+	height: 60px;
+	width: 100%;
+	min-width: 600px;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: right;
+	opacity: 0.85;
+}
+.menuBar:before{
+	content: '';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+}
+.menuContent{
+	display: inline-block;
+	vertical-align: middle;
+}
+.menuContent li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 1.2em;
+	padding: 0 30px;
+}
+.menuContent li a{
+	text-decoration: none;
+	color: #FFF;
+}
+.menuContent li a:hover{
+	color: #a4a4a4;
+}
+#nameNav{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+#mynavigation{
+	width: 100%;
+}
+.logo{
+	float:left;
+	height: 100%;
+	/*margin:5px 0 5px 30px;*/
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.fixedMenu{
+	position: fixed;
+	width: 100%;
+}
+#menuSpacer{
+	/*set height to height of menuBar*/
+	height: 60px;
+}
+
+/*SECTIONS*/
+.section{
+	height: 750px;
+	text-align: center;
+}
+.section:before{
+	content: '';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+	/*margin-right: -0.25em;*/
+}
+.pictureSection{
+	height: 500px;
+	width: 100%;
+	background-color: #d4d4d4;
+	text-align: center;
+}
+[class*='container']{
+	/*min-height: 400px;*/
+	/*background-color: #e6e6e6;*/
+	margin: 0 auto;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.container{
+	min-width: 400px;
+	width: 60%;
+}
+.containerWide{
+	min-width: 700px;
+	width: 90%;
+}
+.containerNarrow{
+	min-width: 400px;
+	width: 40%;
+}
+.gMap{
+	height: 600px;
+	width: 100%;
+}
+.gallerySmallContainer{
+	text-align: center;
+	margin: 0 auto;
+}
+.spacerTiny{
+	height: 25px;
+}
+.spacerSmall{
+	height: 50px;
+}
+.spacer{
+	height: 100px;
+}
+.contactMap{
+	width: 95%;
+	height: 400px;
+	background-color: #FFFFFF;
+	border: solid 2px black;
+	margin: 0 auto;
+}
+
+/*NAVIGATION ARROWS*/
+.arrowContainer{
+	width: 100%;
+	text-align: center;
+}
+.arrowDown{
+	display: inline-block;
+	padding-bottom: 30px;
+}
+.arrowUp{
+	display: inline-block;
+	padding-top: 30px;
+}
+
+/*PLACEHOLDERS*/
+.imagePlaceholder{
+	width: 80%;
+	height: 200px;
+	background-color: #FFFFFF;
+	border: solid 2px black;
+	margin: 0 auto;
+}
+.galleryImgPH{
+	width: 80%;
+	height: 250px;
+	background-color: #efefef;
+	border: solid 2px black;
+	margin: 0 auto 40px auto;
+}
+.listImageSmall{
+	width: 50px;
+	height: 50px;
+	background-color: #efefef;
+	border: solid 2px black;
+	margin: 0 10px;
+}
+
+[class*='otherPropPH']{
+	width: 45%;
+	height: 200px;
+	background-color: #FFFFFF;
+	border: solid 2px black;
+	margin: 0 auto 10px;
+	display: inline-block;
+}
+.otherPropPH{
+	float: none;
+}
+
+.otherPropPH-r{
+	float: right;
+}
+
+/*ALIGNMENTS*/
+.centerText{
+	text-align: center;
+}
+
+/*COLUMNS*/
+.grid{
+	width: 100%;
+}
+.grid:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+[class*='col-']{
+	float: left;
+	margin: 5px;
+	/*height: 350px;*/
+	overflow: hidden;
+}
+.col-2-3{
+	width: 65%;
+	/*background-color: #a0a0a0;*/
+}
+.col-1-3{
+	width: 32%;
+	/*background-color: #707070;*/
+}
+.col-1-4{
+	width: 23%;
+}
+.col-1-2{
+	width: 45%;
+	/*background-color: #b4b4b4;*/
+}
+.col-3-4{
+	width: 73%;
+}
+.col-1-2-r{
+	float: right;
+	width: 45%;
+	/*background-color: #b4b4b4;*/
+}
+
+/*FOOTER SPACING*/
+#bodyContainer{
+	min-height: 100%;
+	position: relative;
+}
+#myHeader{
+	background:#ff0;
+	padding:10px;
+}
+#bodyContent{
+	padding-bottom: 220px; /*height of footer + top margin*/
+}
+#footerContainer{
+	position: absolute;
+	bottom: 0;
+	height: 200px;
+	width: 100%;
+	background-color: #000;
+}
+
+/*FOOTER*/
+.footer{
+	height: 200px;
+	width: 100%;
+	background-color: #000000;
+	color: #FFFFFF;
+	position: absolute;
+	font-size: 0.9em;
+}
+.footer h4{
+	color: #777777;
+	text-decoration: none;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
+.footer a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.footer a:hover{
+	color: #a4a4a4;
+}
+.fContent{
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+.footer ul{
+	display: inline-block;
+	text-align: left;
+	padding: 0 40px;
+	vertical-align: text-top;
+}
+.footer ul li{
+	list-style-type: none;
+}
+.footer .left{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 10px;
+	color: #777777;
+}
+

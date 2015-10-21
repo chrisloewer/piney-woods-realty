@@ -1,0 +1,38 @@
+<!-- mainMenu.html -->
+
+<div class="menuBar" id="mainMenuBar">
+	<div class="logo"><a href="index.html"><img id="logoPic" src="images/pine-trees.png" height="50" onmouseover="colorImage(this,'images/pine-trees-gray.png')" onmouseout="colorImage(this,'images/pine-trees.png')"></a>
+	</div>
+	<div class="menuContent" id="bigMenu">
+		<ul>
+			<!-- <li><h1>PINEY WOODS</h1></li> -->
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="gallery.php">Gallery</a></li>
+			<li><a href="listings.html">Listings</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+
+	<div class="menuContent" id="smallMenu">
+		<ul>
+			<li><img id="menuLogo" src="images/menu_icon.png" height="40" onmouseover="colorImage(this,'images/menu_icon_gray.png')" onmouseout="colorImage(this,'images/menu_icon.png')">
+				<ul>
+					<!-- <li><h1>PINEY WOODS</h1></li> -->
+					<li><a href="index.html">Home</a></li><hr/>
+					<li><a href="about.html">About Us</a></li><hr/>
+					<li><a href="gallery.php">Gallery</a></li><hr/><hr/>
+					<li><a href="listings.html">Listings</a></li><hr/>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+function colorImage(x, s){
+	x.src=s;
+}
+</script>
